@@ -1,0 +1,31 @@
+/* All rules for Space Tourism*/
+/*Last rule wins // most specfic rule wins*/
+
+body {
+background: #2a315f;
+color: white;
+
+}
+header {
+    background: #585c7c;
+
+}
+/* HOT TIP for background images, use ../ at the start of the path */
+.feature {
+background-image: url('../images/space-bkg.jpg');
+background-position: right; 
+background-size: cover;
+}
+.gold-bkg {
+background: #F3D9B5;
+
+}
+
+/*typograghy*/
+h3 {
+    color: var(--Med-Blue, #2b315e);
+    text-align: center;
+    font-family: Josefin Sans;
+    font-size: 32 px;
+    font-style: normal;
+}
